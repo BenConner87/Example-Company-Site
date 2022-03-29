@@ -73,6 +73,11 @@ html body {
     text-align: center;
 }
 
+.random-image {
+    width: 400px;
+    height: 200px;
+}
+
 .innersection2 #button1 {
     padding: 8px 35px;
     background-color: rgb(126, 172, 252);
@@ -226,4 +231,35 @@ html body {
     height: auto;
     border-radius: 25%;
     padding: 0px 2px;
+}
+
+@media screen and (max-width: 600px) {
+    .section5 .box {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .section2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2 img {
+        width: 20em;
+        height: 10em;
+    }
+
+    .section-2-image {
+        width: 20em;
+        height: 10em;
+        margin: 2em;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .list2, .list1 {
+        font-size: .1em;
+    }
 }
